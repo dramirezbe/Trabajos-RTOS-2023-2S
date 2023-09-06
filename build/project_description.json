@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "Sample",
-    "project_version":    "f643082-dirty",
+    "project_version":    "5f8ddb8-dirty",
     "project_path":       "C:/ESP-projects/Repositorio",
     "idf_path":           "C:/Users/david/esp/esp-idf",
     "build_dir":          "C:/ESP-projects/Repositorio/build",
