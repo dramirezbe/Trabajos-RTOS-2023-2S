@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/Users/david/esp/esp-idf/components/bootloader/subproject"
-  "C:/ESP-projects/Sample/build/bootloader"
-  "C:/ESP-projects/Sample/build/bootloader-prefix"
-  "C:/ESP-projects/Sample/build/bootloader-prefix/tmp"
-  "C:/ESP-projects/Sample/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/ESP-projects/Sample/build/bootloader-prefix/src"
-  "C:/ESP-projects/Sample/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/ESP-projects/Repositorio/build/bootloader"
+  "C:/ESP-projects/Repositorio/build/bootloader-prefix"
+  "C:/ESP-projects/Repositorio/build/bootloader-prefix/tmp"
+  "C:/ESP-projects/Repositorio/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/ESP-projects/Repositorio/build/bootloader-prefix/src"
+  "C:/ESP-projects/Repositorio/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/ESP-projects/Sample/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/ESP-projects/Repositorio/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/ESP-projects/Sample/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/ESP-projects/Repositorio/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

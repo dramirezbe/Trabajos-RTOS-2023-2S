@@ -1,4 +1,4 @@
-# Install script for directory: C:/ESP-projects/Sample/main
+# Install script for directory: C:/ESP-projects/Repositorio/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
